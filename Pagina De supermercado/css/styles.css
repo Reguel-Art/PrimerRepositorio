@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: opx;
+
+
+}
+#pageMarketGo #headerMarketGo.fixed-header{
+    background-color: #ffffff,
+}
+
+headerMarketGo.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: height 0.3s;
+    background-color: rgba(255, 255, 255, .9);
+    
+
+}
+
+h1 {
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+    font-size: 2.5em; /* Tamaño del texto */
+    color: rojo; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin: 20px 0; /* Espaciado externo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f4f4f4; /* Fondo */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
